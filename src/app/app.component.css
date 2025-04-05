@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  gap: 20px;
+  background-color: #007acc;
+  padding: 20px;
+}
+
+.box {
+  padding: 10px 20px;
+  background-color: white;
+  color: #007acc;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
