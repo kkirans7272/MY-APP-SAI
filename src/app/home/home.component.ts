@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { ReportService } from '../services/report-service.service'; // ✅ Add this
 
+
 @Component({
   selector: 'app-home',
   standalone: true,
