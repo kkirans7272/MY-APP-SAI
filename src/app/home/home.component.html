@@ -1,1 +1,12 @@
-<p>home works!</p>
+<p>
+    Home works
+</p>
+
+<button (click)="generateReport()">Run Report</button>
+
+<p>Status: {{ reportStatus }}</p>
+
+<div *ngIf="reportData">
+  <h3>Report Result</h3>
+  <pre>{{ reportData }}</pre>
+</div>
